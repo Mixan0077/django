@@ -1,4 +1,5 @@
-# django-admin startproject malochkin
+
+django-admin startproject malochkin
 cd malochkin
 python manage.py startapp new
 заполняем файлы
