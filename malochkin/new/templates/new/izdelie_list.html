@@ -1,0 +1,10 @@
+{% extends 'new/base.html' %}
+
+{% block content %}
+  <h1>Изделия:</h1>
+  <ul>
+    {% for izdelie in izdelia %}
+      <li><a href="{% url 'izdelie_detail' izdelie.pk %}">{{ izdelie.izdelie }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
