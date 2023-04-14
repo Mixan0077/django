@@ -1,8 +1,0 @@
-{% extends 'new/base.html' %}
-
-{% block content %}
-  <h1>Наши клиенты:</h1>
-  {%for i in client%}
-    <p>{{i.last_name}}</p>
-  {%endfor%}
-{% endblock %}
